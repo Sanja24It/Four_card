@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.938rem;
+  background-color: #fafafa;
+}
+
+.container {
+  width: 80%;
+  padding: 0 1.25rem;
+  font-display: flex;
+  flex-direction: column;
+}
+
+.header {
+  text-align: center;
+}
+.header h1 {
+  color: #4c4e61;
+  font-weight: 200;
+}
+
+.header h2 {
+  color: #4c4e61;
+  font-size: 1.5rem;
+}
+
+.header p {
+  color: #a3a5ae;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.supervisor {
+  border-top: 0.4rem solid #45d3d3;
+  margin-bottom: 1.5rem;
+  border-radius: 0.6rem;
+  background-color: #fafafa;
+  padding: 1rem 1.5rem;
+  box-shadow: 0rem 0.5rem 0.625rem 0rem rgba(0, 0, 0, 0.2);
+}
+
+.image {
+  margin-left: 75%;
+  margin-bottom: 1rem;
+}
+
+.supervisor h3 {
+  color: #4c4e61;
+  font-size: 1.5rem;
+}
+
+.supervisor p {
+  color: #a3a5ae;
+}
+
+.team_karma {
+  display: flex;
+  flex-direction: column;
+}
+.team {
+  border-top: 0.4rem solid #ea5353;
+  margin-bottom: 1.5rem;
+  border-radius: 0.6rem;
+  background-color: #fafafa;
+  padding: 1rem 1.5rem;
+  box-shadow: 0rem 0.5rem 0.625rem 0rem rgba(0, 0, 0, 0.2);
+}
+.team h3 {
+  color: #4c4e61;
+  font-size: 1.5rem;
+}
+.team p {
+  color: #a3a5ae;
+}
+.karma {
+  border-top: 0.4rem solid #fcaf4a;
+  margin-bottom: 1.5rem;
+  border-radius: 0.6rem;
+  background-color: #fafafa;
+  padding: 1rem 1.5rem;
+  box-shadow: 0rem 0.5rem 0.625rem 0rem rgba(0, 0, 0, 0.2);
+}
+.karma h3 {
+  color: #4c4e61;
+  font-size: 1.5rem;
+}
+.karma p {
+  color: #a3a5ae;
+}
+.calculator {
+  border-top: 0.4rem solid #549ef2;
+  margin-bottom: 1.5rem;
+  border-radius: 0.6rem;
+  background-color: #fafafa;
+  padding: 1rem 1.5rem;
+  box-shadow: 0rem 0.5rem 0.625rem 0rem rgba(0, 0, 0, 0.2);
+}
+.calculator h3 {
+  color: #4c4e61;
+  font-size: 1.5rem;
+}
+.calculator p {
+  color: #a3a5ae;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 48rem) and (max-width: 63.938rem) {
+  .image {
+    margin-left: 80%;
+  }
+}
+@media screen and (min-width: 64rem) {
+  .container {
+    width: 61.25rem;
+  }
+
+  .header {
+    margin-bottom: 2rem;
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: row;
+  }
+
+  .supervisor {
+    align-self: center;
+    flex-basis: 18rem;
+  }
+
+  .team_karma {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    flex-basis: 22rem;
+  }
+
+  .calculator {
+    align-self: center;
+    flex-basis: 18rem;
+  }
+  .image {
+    margin-left: 80%;
+  }
+}
